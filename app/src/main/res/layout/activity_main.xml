@@ -15,7 +15,6 @@
         android:ems="10"
         android:hint="Link Imagem"
         android:inputType="text"
-
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_register"
         app:layout_constraintEnd_toEndOf="parent"
