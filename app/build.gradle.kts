@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.desafiomobile"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.desafiomobile"
@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.coil)
+    implementation(libs.coil.network.okhttp)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
